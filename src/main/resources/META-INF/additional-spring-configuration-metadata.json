@@ -1,0 +1,17 @@
+{
+    "properties": [
+      {
+        "name": "jwt.public.key",
+        "type": "java.lang.String",
+        "description": "The public key used for JWT verification",
+        "defaultValue": "classpath:app.pub"
+      },
+      {
+        "name": "jwt.private.key",
+        "type": "java.lang.String",
+        "description": "The private key used for JWT signing",
+        "defaultValue": "classpath:app.key"
+      }
+    ]
+  }
+  
